@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+}
+
+.header {
+  text-align: right;
+  position: relative;
+  background: #333333;
+}
+.post_content {
+  text-align: center;
+}
+.post_data {
+  text-align: left;
+  background-color: #f6f5f5;
+  margin:8px auto;
+  max-width: 720px;
+  line-height: 150%;
+  border: 1px solid #696969;
+}
+.name {
+  margin-top: 0;
+}
+.post {
+  background-color: #fff;
+}
+.comment {
+  max-width: 720px;
+  text-align: left;
+  margin: 4px auto;
+  background-color: #f6f5f5;
+  border: 1px solid #696969;
+}
+.content {
+  margin-bottom: 0;
+}
+/* textarea */
+.add_post {
+  text-align: center;
+  border: 10px solid #bee6cc;
+  max-width: 600px;
+  margin: auto;
+}
+textarea {
+  background: #f6f5f5;
+}
+.button {
+  text-align: right;
+}
+/* header */
+.kara {
+  margin-top: 200px;
+}
+.log {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  width: 260px;
+  line-height: 56px;
+}
+
+.ogiri-title {
+  margin-top: 16px;
+  padding-left: 30px;
+  font-size: 40px;
+  text-align: left;
+  margin-top: 0;
+}
+.ogiri-title a {
+  cursor: pointer;
+  font-style:italic;
+}
+.item a {
+    border: 1px solid #696969;
+  text-decoration: none;
+    padding: 0 20px;
+    font-weight: bold;
+    display: block;
+    width: 104px;
+    text-align: center;
+    color: #666;
+    background: #bee6cc;
+}
+.ogiri-title a {
+  text-decoration: none;
+  color: #4bd07a;
+}
+header {
+  width: 100%;
+  height: 56px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background: #ffffffe6;
+}
+
+/* 退会処理 */
+.popup {
+  text-align: center;
+}
+
+/* ログアウト */
+.logout {
+  text-align: center;
+}
+.logout-out {
+  text-align: center;
+}
+
+/* ログイン */
+.login {
+  text-align: center;
+}
+
+.alert {
+  text-align: center;
+}
+
+/* 会員登録 */
+.register {
+  text-align: center;
+}
+.register-out {
+  text-align: center;
+}
