@@ -1,7 +1,6 @@
-<?php require_once 'DBManager.php'; ?>
-<?php require_once 'menu.php'; ?>
-<?php require_once 'function.php'; ?>
-<?php require_once 'database.php'; ?>
+<?php require_once '/var/www/html/header.php'; ?>
+<?php require_once '/var/www/html/function.php'; ?>
+<?php require_once '/var/www/html/database.php'; ?>
 <?php
 session_start();
 header("Content-type: text/html; charset=utf-8");
@@ -32,5 +31,3 @@ if($_POST) {
 
 
 
-
-?>
