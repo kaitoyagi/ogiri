@@ -1,4 +1,4 @@
-<?php require_once 'header.php'; ?>
+<?php require_once '/var/www/html/header.php'; ?>
 <?php
 session_start();
 if (!empty($_POST)) {
