@@ -1,7 +1,7 @@
 <?php
-require_once 'database.php';
-require_once 'header.php';
-require_once 'function.php';
+require_once '/var/www/html/database.php';
+require_once '/var/www/html/header.php';
+require_once '/var/www/html/function.php';
 ?>
 <?php
 // 送信ボタンが押された時に下記を実行
