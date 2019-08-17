@@ -1,6 +1,6 @@
 <?php session_start(); ?>
-<?php require_once 'database.php'; ?>
-<?php require_once 'function.php'; ?>
+<?php require_once '/var/www/html/database.php'; ?>
+<?php require_once '/var/www/html/function.php'; ?>
 
 <!DOCTYPE html>
   <head>
