@@ -21,12 +21,9 @@ $confirm_password = $_POST["confirm_password"];
 
   // IDチェック
 
-  // DB接続
-$db = getDB();
-
   // プレースホルダの型を指定
 $sql = 'select count(*) as cnt from users where email=?';
-$stmt = $db->prepare($sql);
+$stmt = $mysqli->prepare($sql);
 
 $arrParam = array();
 $arrParam[] = $mail;
