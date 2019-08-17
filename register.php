@@ -8,8 +8,8 @@
 <html lang="ja">
 <head>
    <meta charset="UTF-8">
-   <script src="passwordchecker.js" type="text/javascript"></script>
-   <script src="common.js" type="text/javascript"></script>
+   <script src="/var/www/html/passwordchecker.js" type="text/javascript"></script>
+   <script src="/var/www/html/common.js" type="text/javascript"></script>
    <script type="text/javascript">
       /*
       * 登録前チェック
