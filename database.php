@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $username = "dbuser";
-$password = "hx7L2208";
+$password = "Rpg0H5DA9o]>M?%=";
 $dbname = "ogiri_sns_php";
 
 $mysqli = new mysqli($host, $username, $password, $dbname);
