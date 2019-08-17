@@ -1,7 +1,7 @@
 <?php
-require_once '/var/www/html/header.php';
-require_once '/var/www/html/database.php';
-require_once '/var/www/html/function.php';
+require_once 'header.php';
+require_once 'database.php';
+require_once 'function.php';
 ?>
 
 <?php
@@ -32,7 +32,7 @@ if ($_POST) {
   <body>
     <div class="login">
       <h1>ログイン画面</h1>
-      <form action="login-out.php" method="post">
+      <form action="" method="post">
         <label for="email">Email</label> <input type="email" name="email" id="email"> <br>
         <label for="password">パスワード</label> <input type="password" name="password" id="password"> <br>
         <input type="submit" name="login" value="ログイン">
