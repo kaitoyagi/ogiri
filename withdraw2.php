@@ -1,9 +1,9 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
-require 'header.php';
-require_once 'function.php';
-require_once 'database.php';
+require_once '/var/www/html/header.php';
+require_once '/var/www/html/function.php';
+require_once '/var/www/html/database.php';
 require_logined_session();
 ?>
 <?php
