@@ -1,6 +1,6 @@
 <?php
   session_start();
-  require_once 'header.php';
+  require_once '/var/www/html/header.php';
   header("Content-type: text/html; charset=utf-8");
 ?>
 
