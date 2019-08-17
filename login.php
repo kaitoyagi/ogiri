@@ -32,7 +32,7 @@ if ($_POST) {
   <body>
     <div class="login">
       <h1>ログイン画面</h1>
-      <form action="" method="post">
+      <form action="login-out.php" method="post">
         <label for="email">Email</label> <input type="email" name="email" id="email"> <br>
         <label for="password">パスワード</label> <input type="password" name="password" id="password"> <br>
         <input type="submit" name="login" value="ログイン">
