@@ -1,5 +1,5 @@
-<?php require_once 'DBManager.php'; ?>
-<?php require_once 'function.php'; ?>
+<?php require_once '/var/www/html/database.php'; ?>
+<?php require_once '/var/www/html/function.php'; ?>
 <?php
 session_start();
 header("Content-type: text/html; charset=utf-8");
