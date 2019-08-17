@@ -1,7 +1,7 @@
 <?php
-require_once 'database.php';
-require_once 'function.php';
-require_once 'header.php';
+require_once '/var/www/html/database.php';
+require_once '/var/www/html/function.php';
+require_once '/var/www/html/header.php';
 session_start();
 require_logined_session();
 ?>
