@@ -2,11 +2,6 @@
 require_once '/var/www/html/header.php';
 require_once '/var/www/html/function.php';
 require_once '/var/www/html/database.php';
-session_start();
-?>
-
-<?php
-require_logined_session();
 ?>
 
 <?php
