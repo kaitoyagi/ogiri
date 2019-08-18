@@ -235,7 +235,9 @@ function save_user($name, $email, $password, $mysqli) {
                   )";
 
   $result = $mysqli->query($query);
-  header("Location:register-out.php");
+  echo "<div class='alert alert-success'>
+			<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
+			会員登録が完了しました</div>";
 }
 
 //ログイン機能
